@@ -515,7 +515,7 @@ def fcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r [\033[1;97mSKB\033[1;97m] %s|OK:-%s \r'%(loop,len(cps))),
+			sys.stdout.write(f'\r [\033[1;97mTONY\033[1;97m] %s|OK:-%s \r'%(loop,len(cps))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
